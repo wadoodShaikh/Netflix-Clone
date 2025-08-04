@@ -41,19 +41,19 @@ Designed to closely replicate the official Netflix UI with clean layout, respons
 
 ## 📁 Folder Structure
 
-netflix-clone/
-├── index.html
-├── styles/
-│   ├── style.css
-│   └── responsive-style.css
-├── images/
-│   ├── logo.png
-│   ├── add-icon.svg
-│   ├── slide1.webp
-│   ├── slide2.webp
-│   └── ... (other images)
-├── README.md
-
+netflix-clone/<br/>
+├── index.html<br/>
+├── styles/<br/>
+│   ├── style.css<br/>
+│   └── responsive-style.css<br/>
+├── images/<br/>
+│   ├── logo.png<br/>
+│   ├── add-icon.svg<br/>
+│   ├── slide1.webp<br/>
+│   ├── slide2.webp<br/>
+│   └── ... (other images)<br/>
+├── README.md<br/>
+<br/>
 ---
 
 ## 📱 Responsiveness
