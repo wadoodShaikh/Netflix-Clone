@@ -100,6 +100,6 @@ Let’s learn and build better together 🚀
 
 ---
 
-### 👨‍💻 Created by **Michihiro**
+### 👨‍💻 Created by **Wadood Shaikh**
 _“Don’t just binge-watch Netflix. Build it.”_
 
