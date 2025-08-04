@@ -13,9 +13,7 @@ Designed to closely replicate the official Netflix UI with clean layout, respons
 
 ## 📸 Preview
 
-> _Add this screenshot to `images/screenshot.png` and it will show up below automatically._
-
-![Netflix Clone Screenshot](images/screenshot.png)
+![Netflix Clone Screenshot](images/screenshot.PNG)
 
 ---
 
@@ -46,13 +44,15 @@ Designed to closely replicate the official Netflix UI with clean layout, respons
 netflix-clone/
 ├── index.html
 ├── styles/
-│ ├── style.css
-│ └── responsive-style.css
+│   ├── style.css
+│   └── responsive-style.css
 ├── images/
-│ ├── [logo.png, add-icon.svg, etc.]
-│ └── screenshot.png (for README preview)
-└── README.md
-
+│   ├── logo.png
+│   ├── add-icon.svg
+│   ├── slide1.webp
+│   ├── slide2.webp
+│   └── ... (other images)
+├── README.md
 
 ---
 
