@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.page {
+  background: linear-gradient(
+      rgb(0 0 0 / 90%),
+      rgb(0 0 0 / 60%),
+      rgb(0 0 0 / 90%)
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_large.jpg);
+  height: 45em;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  background: transparent;
+  height: 6em;
+}
+
+.nav-logo {
+  height: 3em;
+  width: 3em;
+}
+.nav-logo img {
+  width: 10em;
+  object-fit: cover;
+}
+
+.nav-btns {
+  gap: 10px;
+}
+.navbtn-signin {
+  background-color: #e50914;
+  width: 5.2em;
+  height: 2.2em;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease-in;
+}
+
+.navbtn-signin:hover {
+  background-color: rgb(193, 17, 25);
+}
+
+.language-btn {
+  background-color: rgba(51, 51, 51, 0.255);
+  outline: none;
+  width: 8.6em;
+  height: 2.3em;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.316);
+}
+
+.language-btn img {
+  height: 20px;
+  width: 15px;
+}
+.language-btn svg {
+  height: 15px;
+  width: 15px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.hero-section {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35em;
+  text-align: center;
+}
+
+.hero-component-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.hero-component-one h1 {
+  font-size: 55px;
+  font-weight: 900;
+  width: 15em;
+}
+.hero-component-two {
+  margin: 30px 0 0px 0;
+}
+.hero-component-two p {
+  font-weight: 400;
+}
+
+.hero-component-two-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+.hero-component-two-input input {
+  width: 25em;
+  height: 3em;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.316);
+  border-radius: 5px;
+  background-color: rgba(41, 41, 41, 0.604);
+  padding: 0 10px;
+  color: white;
+  font-size: 1rem;
+}
+.hero-component-two-input input::placeholder {
+  color: rgb(205, 200, 200);
+}
+
+.hero-component-two-input button {
+  background-color: #e50914;
+  width: 8em;
+  height: 2em;
+  border-radius: 5px;
+  font-size: 24px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease-in;
+}
+.hero-component-two-input button:hover {
+  background-color: rgb(193, 17, 25);
+}
+
+.trending-section {
+  position: relative;
+  background-color: #000;
+  color: white;
+  padding: 80px 0em;
+}
+
+.trending-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: radial-gradient(
+    ellipse at center,
+    #ff0000 0%,
+    #000033 50%,
+    transparent 100%
+  );
+}
+
+.slider {
+  width: 75em;
+  height: 20em;
+  overflow: auto;
+  padding: 30px;
+}
+.slider ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.card {
+  position: relative;
+}
+.card img {
+  border-radius: 15px;
+}
+
+.card p {
+  position: absolute;
+  top: 150px;
+  left: -20px;
+  font-size: 100px;
+  font-weight: 800;
+  -webkit-text-stroke: 1px white;
+  color: black;
+}
+.card-details-section {
+  position: relative;
+  background-color: #000;
+  color: white;
+  padding: 30px 0em;
+  height: 24em;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+}
+.detail-card {
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  color: white;
+  width: 20em;
+  height: 16em;
+  border-radius: 20px;
+}
+.detail-card div {
+  margin: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detail-card div p {
+  color: #aaaab5;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.card-details-heading {
+  margin: 20px 0;
+}
+
+.faq {
+  background: #000;
+  color: #fff;
+}
+.faq-card-container {
+  padding: 30px 0;
+}
+.faq-card-container-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.faq-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2d2d2d;
+  padding: 10px;
+  /* height: 4em; */
+  transition: all 0.2s ease-in;
+  position: relative;
+}
+
+.faq-card:hover {
+  background-color: rgb(65, 65, 65);
+}
+
+.faq-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 2em;
+}
+
+.faq-card-details p {
+  font-size: 25px;
+}
+
+.faq-dropdown-card {
+   max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+  background-color: #2d2d2d;
+}
+
+.faq-card:hover .faq-dropdown-card{
+     max-height: 500px;
+
+}
+
+.faq-dropdown-details {
+    padding: 24px 1.5em;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.newsletter {
+  background-color: #000;
+  color: #fff;
+}
+
+.newletter-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 52px 0;
+}
+
+.newsletter-email-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.newsletter-email-box input {
+  width: 32em;
+  height: 3em;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.316);
+  border-radius: 5px;
+  background-color: rgba(41, 41, 41, 0.604);
+  padding: 0 10px;
+  color: white;
+  font-size: 1rem;
+}
+.newsletter-email-box input::placeholder {
+  color: rgb(205, 200, 200);
+}
+
+.newsletter-email-box button {
+  background-color: #e50914;
+  width: 8em;
+  height: 2em;
+  border-radius: 5px;
+  font-size: 24px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease-in;
+}
+
+.newsletter-email-box button:hover {
+  background-color: rgb(193, 17, 25);
+}
+
+.newsletter-heading p {
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #000;
+  color: #aaaab5;
+}
+
+.footer a {
+  color: #aaaab5;
+}
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-one-details {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.footer-one-details a {
+  font-weight: 700;
+}
+.footer-two-details {
+  display: flex;
+  flex-direction: row;
+  gap: 14%;
+}
+.col-one {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.col-one a {
+  padding: 8px 0;
+  color: #aaaab5;
+}
+
+.footer-three {
+  height: 17em;
+  margin-top: 3em;
+}
+.footer-three-details {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-three-three {
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+}
+.footer-three-three a {
+  color: #3e82e0;
+}

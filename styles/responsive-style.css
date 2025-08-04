@@ -1,0 +1,151 @@
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media (max-width: 2560px) {
+  .slider {
+    width: 76em;
+  }
+  .cards {
+    justify-content: center;
+  }
+  .hero-component-two-input input {
+    width: 44em;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1024px;
+  }
+  .slider {
+    width: 54em;
+  }
+  .hero-component-two-input input {
+    width: 25em;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .slider {
+    width: 48em;
+  }
+  .cards {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 330px auto;
+  }
+  .detail-card {
+    height: 12em;
+  }
+  .faq {
+    padding-top: 8em;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .slider {
+    width: 36em;
+  }
+  .hero-component-one h1 {
+    width: 11em;
+  }
+  .newsletter-email-box input {
+    width: 18em;
+  }
+  .cards {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 330px auto;
+  }
+  .detail-card {
+    height: 12em;
+  }
+  .faq {
+    padding-top: 8em;
+  }
+}
+@media (max-width: 475px) {
+  .container {
+    width: 88%;
+  }
+  .slider {
+    width: 18em;
+  }
+  .hero-component-two-input input {
+    width: 14em;
+  }
+  .hero-component-one h1 {
+    font-size: 24px;
+  }
+  .hero-component-one h3 {
+    font-size: 14px;
+  }
+  .hero-section-components {
+    width: 22em;
+  }
+  .hero-component-two-input {
+    flex-direction: column;
+  }
+  .hero-component-two-input input {
+    height: 2.4em;
+  }
+  .hero-component-two-input button {
+    font-size: 16px;
+  }
+  .nav-logo img {
+    width: 6em;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+  .cards {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 330px;
+  }
+  .detail-card {
+    height: 12em;
+  }
+  .faq {
+    padding-top: 34em;
+  }
+  .faq-card-details p {
+    font-size: 18px;
+  }
+  .faq-card-details img {
+    height: 24px;
+  }
+  .faq-card-details {
+    padding: 0 1em;
+  }
+  .newsletter-email-box {
+    flex-direction: column;
+  }
+  .newsletter-email-box input {
+    height: 2.4em;
+  }
+  .newsletter-email-box button {
+    font-size: 16px;
+  }
+  .footer-two-details {
+    display: block;
+  }
+}
+
+@media (max-width: 320px) {
+  .slider {
+    width: 12em;
+  }
+  .detail-card {
+    width: 17em;
+    margin: 0 auto;
+  }
+}
